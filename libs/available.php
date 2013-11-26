@@ -5,48 +5,46 @@
 	 */
 	function aesop_shortcodes( $shortcode = false ) {
 		$shortcodes = array(
-			#socialicons 
-			'socialicon' => array(
-				'name' => 'Social Icons',
-				'type' => 'single',
+			'parallax' => array(
+				'name' => 'Aesop Parallax',
+				'type' => 'wrap',
 				'atts' => array(
-					'link' => array(
+					'img' => array(
 						'values' => array( ),
 						'default' => '#',
-						'desc' => __( 'Icon link', 'aesop-shortcodes' )
+						'desc' => __( 'Image', 'aesop-shortcodes' )
 					),
-					'type' => array(
-						'values' => array(
-							'twitter-icon',
-							'fb-icon',
-							'googleplus-icon',
-							'linkedin-icon',
-							'youtube-icon',
-							'vimeo-icon',
-							'foursquare-icon',
-							'spotify-icon'
-						),
-						'default' => 'twitter',
-						'desc' => __('Social Icons', 'aesop-shortcodes' )
+					'height' => array(
+						'values' => array(),
+						'default' => '500',
+						'desc' => __('Height', 'aesop-shortcodes' )
 					),
-					'target' => array(
+					'cappos' => array(
 						'values' => array(
-							'self',
-							'blank'
+							'bottom-left',
+							'bottom-right',
+							'top-left',
+							'top-right',
 						),
+						'default' => 'bottom-left',
+						'desc' => __('Caption Position', 'aesop-shortcodes' )
+					),
+					'speed' => array(
+						'values' => array(),
 						'default' => 'blank',
-						'desc' => __( 'Icon link target', 'aesop-shortcodes' )
+						'desc' => __( 'Speed', 'aesop-shortcodes' )
 					)
 				),
+				'content' => __( 'Captoin', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
 				'desc' => __( 'Choose an icon','aesop-shortcodes' )
 			),
 		);
 
 		if ( $shortcode )
-			return $shortcodes[$shortcode];
+			return apply_filters('aesop_avail_shortcodes', $shortcodes[$shortcode]);
 		else
-			return $shortcodes;
+			return apply_filters('aesop_avail_shortcodes', $shortcodes);
 	}
 
 ?>
