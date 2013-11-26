@@ -69,18 +69,6 @@ class aesopShortCodesLoader {
 		echo '<a href="#TB_inline?width=640&height=640&inlineId=aesop-generator-wrap" class="thickbox"><img src="' . $this->base_url . '/img/admin/media-icon.png" alt="" /></a>';
 	}
 
-    function shortcode_empty_paragraph_fix($content) {
-        $array = array (
-            '<p>[' => '[',
-            ']</p>' => ']',
-            ']<br />' => ']'
-        );
-
-        $content = strtr($content, $array);
-
-		return $content;
-    }
-
 	function aesop_generator_popup() {
 		?>
 		<div id="aesop-generator-wrap" style="display:none">
@@ -92,8 +80,6 @@ class aesopShortCodesLoader {
 							<img class="aesop-generator-logo" src="<?php echo $this->base_url.'/img/admin/logo.png';?>">
 							<h2 class="aesop-generator-welcome-heading"><?php _e('Insert a Shortcode','aesop-shortcodes');?></h2>
 							<p class="aesop-generator-welcome-message"><?php _e('Use the dropdown below to select a shortcode, adjust any available options, then add it to any post or page. Most shortcodes can also be used in widgets.','aesop-shortcodes');?><a class="aesop-close" data-dismiss="alert" href="#">&times;</a></p>
-							<a class="aesop-generator-moreinfo one" href="http://www.pagelines.com/forum/forum/70-products-by-nick-haskins/" target="_blank" title="support"><?php _e('Support','aesop-shortcodes');?></a>
-							<a class="aesop-generator-moreinfo" href="http://colorpicker.com" target="_blank" title="online color picker"><?php _e('Color Picker','aesop-shortcodes');?></a>
 						</div>
 					</div>
 

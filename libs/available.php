@@ -17,7 +17,7 @@
 					'height' => array(
 						'values' => array(),
 						'default' => '500',
-						'desc' => __('Height', 'aesop-shortcodes' )
+						'desc' => __('Height of Image Area', 'aesop-shortcodes' )
 					),
 					'cappos' => array(
 						'values' => array(
@@ -31,11 +31,19 @@
 					),
 					'speed' => array(
 						'values' => array(),
-						'default' => 'blank',
-						'desc' => __( 'Speed', 'aesop-shortcodes' )
+						'default' => '0.15',
+						'desc' => __( 'Speed of Parallax Effect', 'aesop-shortcodes' )
+					),
+					'lightbox' => array(
+						'values' => array(
+							'on',
+							'off'
+						),
+						'default' => 'off',
+						'desc' => __('Image Lightbox', 'aesop-shortcodes' )
 					)
 				),
-				'content' => __( 'Captoin', 'ba-shortcodes' ),
+				'content' => __( 'Caption', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
 				'desc' => __( 'Choose an icon','aesop-shortcodes' )
 			),
