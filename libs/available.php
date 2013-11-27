@@ -90,7 +90,7 @@
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
 				'desc' => __( 'Creates a background image section, with text in the middle.','aesop-shortcodes' )
 			),
-			'content_cols' => array(
+			'columns' => array(
 				'name' => 'Magazine Columns',
 				'type' => 'wrap',
 				'atts' => array(
@@ -118,7 +118,7 @@
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
 				'desc' => __( 'Creates the scroll to point, as a chapter heading.','aesop-shortcodes' )
 			),
-			'video_sc' => array(
+			'video' => array(
 				'name' => 'Video Section',
 				'type' => 'single',
 				'atts' => array(
