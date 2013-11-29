@@ -389,14 +389,6 @@ a#aesop-generator-insert.button-primary {
 	line-height: 2em;
 	margin: 30px auto 0;
 	border-bottom: 1px solid rgba(15, 83, 105, 1);
-	-webkit-box-shadow: 0px 5px 0px rgba(6, 86, 112, 1);
-    -moz-box-shadow: 0px 5px 0px rgba(6, 86, 112, 1);
-    box-shadow: 0px 5px 0px rgba(6, 86, 112, 1);
-    -webkit-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	-ms-transition: all .1s ease;
-	-o-transition: all .1s ease;
-	transition: all .1s ease;
 }
 
 a#aesop-generator-insert.button-primary:hover {
@@ -412,11 +404,8 @@ a#aesop-generator-insert.button-primary:active {
 	background: -ms-linear-gradient(top,  #31b6e3 0%,#258dc8 100%);
 	background: linear-gradient(top,  #31b6e3 0%,#258dc8 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31b6e3', endColorstr='#258dc8',GradientType=0 );
-    -webkit-box-shadow: 0px 2px 0px rgba(6, 86, 112, 1);
-    -moz-box-shadow: 0px 2px 0px rgba(6, 86, 112, 1);
-    box-shadow: 0px 2px 0px rgba(6, 86, 112, 1);
     position: relative;
-    top: 6px;
+    top: 3px;
     outline: none;
 }
 

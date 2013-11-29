@@ -78,14 +78,14 @@ class aesopShortCodesLoader {
 					<div class="aesop-generator-header">
 						<div class="aesop-generator-welcome fix">
 							<img class="aesop-generator-logo" src="<?php echo $this->base_url.'/img/admin/logo.png';?>">
-							<h2 class="aesop-generator-welcome-heading"><?php _e('Insert a Shortcode','aesop-shortcodes');?></h2>
-							<p class="aesop-generator-welcome-message"><?php _e('Use the dropdown below to select a shortcode, adjust any available options, then add it to any post or page. Most shortcodes can also be used in widgets.','aesop-shortcodes');?><a class="aesop-close" data-dismiss="alert" href="#">&times;</a></p>
+							<h2 class="aesop-generator-welcome-heading"><?php _e('Insert a Shortcode','aesop-shortcode-generator');?></h2>
+							<p class="aesop-generator-welcome-message"><?php _e('Use the dropdown below to select a shortcode, adjust any available options, then add it to any post or page. Most shortcodes can also be used in widgets.','aesop-shortcode-generator');?></p>
 						</div>
 					</div>
 
 					<div class="aesop-select-wrap fix">
 						<select name="aesop-select" class="aesop-generator" id="aesop-generator-select">
-							<option value="raw"><?php _e( 'Select', 'aesop-shortcodes' ); ?></option>
+							<option value="raw"><?php _e( 'Select', 'aesop-shortcode-generator' ); ?></option>
 							<?php
 							foreach ( aesop_shortcodes() as $name => $shortcode ) {
 							?>

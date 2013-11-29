@@ -13,6 +13,11 @@ class aesopSCGen {
 	public function __construct(){
 		require_once('libs/load.php' );
 		require_once('libs/available.php' );
+		add_action( 'plugins_loaded', array($this,'textdomain'));
+	}
+
+	public function textdomain() {
+		load_plugin_textdomain( 'aesop_scgen_translation', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
 	}
 }
 new aesopSCGen;

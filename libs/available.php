@@ -12,12 +12,12 @@
 					'img' => array(
 						'values' => array( ),
 						'default' => '#',
-						'desc' => __( 'Image', 'aesop-shortcodes' )
+						'desc' => __( 'Image', 'aesop-shortcode-generator' )
 					),
 					'height' => array(
 						'values' => array(),
 						'default' => '500',
-						'desc' => __('Height of Image Area', 'aesop-shortcodes' )
+						'desc' => __('Height of Image Area', 'aesop-shortcode-generator' )
 					),
 					'cappos' => array(
 						'values' => array(
@@ -27,12 +27,12 @@
 							'top-right',
 						),
 						'default' => 'bottom-left',
-						'desc' => __('Caption Position', 'aesop-shortcodes' )
+						'desc' => __('Caption Position', 'aesop-shortcode-generator' )
 					),
 					'speed' => array(
 						'values' => array(),
 						'default' => '0.15',
-						'desc' => __( 'Speed of Parallax Effect', 'aesop-shortcodes' )
+						'desc' => __( 'Speed of Parallax Effect', 'aesop-shortcode-generator' )
 					),
 					'lightbox' => array(
 						'values' => array(
@@ -40,12 +40,12 @@
 							'off'
 						),
 						'default' => 'off',
-						'desc' => __('Image Lightbox', 'aesop-shortcodes' )
+						'desc' => __('Image Lightbox', 'aesop-shortcode-generator' )
 					)
 				),
 				'content' => __( 'Caption', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
-				'desc' => __( 'Parallax styled image component with caption and optional lightbox.','aesop-shortcodes' )
+				'desc' => __( 'Parallax styled image component with caption and optional lightbox.','aesop-shortcode-generator' )
 			),
 			'quote' => array(
 				'name' => 'Aesop Quote Section',
@@ -54,22 +54,22 @@
 					'background' => array(
 						'values' => array( ),
 						'default' => '#282828',
-						'desc' => __( 'Hex Color of Background', 'aesop-shortcodes' )
+						'desc' => __( 'Hex Color of Background', 'aesop-shortcode-generator' )
 					),
 					'text' => array(
 						'values' => array(),
 						'default' => '#FFFFFF',
-						'desc' => __('Hex Color of Text', 'aesop-shortcodes' )
+						'desc' => __('Hex Color of Text', 'aesop-shortcode-generator' )
 					),
 					'height' => array(
 						'values' => array(),
 						'default' => '',
-						'desc' => __('Height of Image Area', 'aesop-shortcodes' )
+						'desc' => __('Height of Image Area', 'aesop-shortcode-generator' )
 					),
 				),
 				'content' => __( 'Quote Here', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
-				'desc' => __( 'Section quote area with background and color controls.','aesop-shortcodes' )
+				'desc' => __( 'Section quote area with background and color controls.','aesop-shortcode-generator' )
 			),
 			'image_back' => array(
 				'name' => 'Image Back',
@@ -78,17 +78,17 @@
 					'img' => array(
 						'values' => array( ),
 						'default' => '#',
-						'desc' => __( 'Image URL', 'aesop-shortcodes' )
+						'desc' => __( 'Image URL', 'aesop-shortcode-generator' )
 					),
 					'color' => array(
 						'values' => array(),
 						'default' => '#FFFFFF',
-						'desc' => __('Color of Text', 'aesop-shortcodes' )
+						'desc' => __('Color of Text', 'aesop-shortcode-generator' )
 					)
 				),
 				'content' => __( 'Your normal content goes here.', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
-				'desc' => __( 'Creates a background image section, with text in the middle.','aesop-shortcodes' )
+				'desc' => __( 'Creates a background image section, with text in the middle.','aesop-shortcode-generator' )
 			),
 			'columns' => array(
 				'name' => 'Magazine Columns',
@@ -97,12 +97,12 @@
 					'num' => array(
 						'values' => array( ),
 						'default' => 2,
-						'desc' => __( 'Number of Columns', 'aesop-shortcodes' )
+						'desc' => __( 'Number of Columns', 'aesop-shortcode-generator' )
 					)
 				),
 				'content' => __( 'All your normal text goes here.', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
-				'desc' => __( 'Wraps your text in magazine style columns.','aesop-shortcodes' )
+				'desc' => __( 'Wraps your text in magazine style columns.','aesop-shortcode-generator' )
 			),
 			'chapter_head' => array(
 				'name' => 'Chapter Heading',
@@ -111,12 +111,12 @@
 					'num' => array(
 						'values' => array( ),
 						'default' => 1,
-						'desc' => __( 'What Chapter is This?', 'aesop-shortcodes' )
+						'desc' => __( 'What Chapter is This?', 'aesop-shortcode-generator' )
 					)
 				),
 				'content' => __( 'Null here', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
-				'desc' => __( 'Creates the scroll to point, as a chapter heading.','aesop-shortcodes' )
+				'desc' => __( 'Creates the scroll to point, as a chapter heading.','aesop-shortcode-generator' )
 			),
 			'video' => array(
 				'name' => 'Video Section',
@@ -131,17 +131,17 @@
 							'dailymotion'
 						),
 						'default' => 'vimeo',
-						'desc' => __('Video Source', 'aesop-shortcodes' )
+						'desc' => __('Video Source', 'aesop-shortcode-generator' )
 					),
 					'id' => array(
 						'values' => array( ),
 						'default' => '',
-						'desc' => __( 'Video ID', 'aesop-shortcodes' )
+						'desc' => __( 'Video ID', 'aesop-shortcode-generator' )
 					)
 				),
 				'content' => __( 'Null here', 'ba-shortcodes' ),
 				'usage' => '[aesop-social-icon type="twitter-icon" link="http://link.com" target="_blank"]',
-				'desc' => __( 'Creates a video section.','aesop-shortcodes' )
+				'desc' => __( 'Creates a video section.','aesop-shortcode-generator' )
 			)
 		);
 

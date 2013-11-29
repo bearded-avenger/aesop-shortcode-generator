@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aesope SC Gen\n"
+"POT-Creation-Date: 2013-11-29 15:20-0600\n"
+"PO-Revision-Date: 2013-11-29 15:20-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../libs/available.php:15
+msgid "Image"
+msgstr ""
+
+#: ../libs/available.php:20 ../libs/available.php:67
+msgid "Height of Image Area"
+msgstr ""
+
+#: ../libs/available.php:30
+msgid "Caption Position"
+msgstr ""
+
+#: ../libs/available.php:35
+msgid "Speed of Parallax Effect"
+msgstr ""
+
+#: ../libs/available.php:43
+msgid "Image Lightbox"
+msgstr ""
+
+#: ../libs/available.php:46
+msgid "Caption"
+msgstr ""
+
+#: ../libs/available.php:48
+msgid "Parallax styled image component with caption and optional lightbox."
+msgstr ""
+
+#: ../libs/available.php:57
+msgid "Hex Color of Background"
+msgstr ""
+
+#: ../libs/available.php:62
+msgid "Hex Color of Text"
+msgstr ""
+
+#: ../libs/available.php:70
+msgid "Quote Here"
+msgstr ""
+
+#: ../libs/available.php:72
+msgid "Section quote area with background and color controls."
+msgstr ""
+
+#: ../libs/available.php:81
+msgid "Image URL"
+msgstr ""
+
+#: ../libs/available.php:86
+msgid "Color of Text"
+msgstr ""
+
+#: ../libs/available.php:89
+msgid "Your normal content goes here."
+msgstr ""
+
+#: ../libs/available.php:91
+msgid "Creates a background image section, with text in the middle."
+msgstr ""
+
+#: ../libs/available.php:100
+msgid "Number of Columns"
+msgstr ""
+
+#: ../libs/available.php:103
+msgid "All your normal text goes here."
+msgstr ""
+
+#: ../libs/available.php:105
+msgid "Wraps your text in magazine style columns."
+msgstr ""
+
+#: ../libs/available.php:114
+msgid "What Chapter is This?"
+msgstr ""
+
+#: ../libs/available.php:117 ../libs/available.php:142
+msgid "Null here"
+msgstr ""
+
+#: ../libs/available.php:119
+msgid "Creates the scroll to point, as a chapter heading."
+msgstr ""
+
+#: ../libs/available.php:134
+msgid "Video Source"
+msgstr ""
+
+#: ../libs/available.php:139
+msgid "Video ID"
+msgstr ""
+
+#: ../libs/available.php:144
+msgid "Creates a video section."
+msgstr ""
+
+#: ../libs/generator.php:47
+msgid "Content"
+msgstr ""
+
+#: ../libs/generator.php:50
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../libs/load.php:81
+msgid "Insert a Shortcode"
+msgstr ""
+
+#: ../libs/load.php:82
+msgid ""
+"Use the dropdown below to select a shortcode, adjust any available options, "
+"then add it to any post or page. Most shortcodes can also be used in widgets."
+msgstr ""
+
+#: ../libs/load.php:88
+msgid "Select"
+msgstr ""
